@@ -1,2 +1,2 @@
 # NovaIsOnMars.github.io
-Random website cuz I was bored
+A website for myself to test stuff out on, and possibly use.
