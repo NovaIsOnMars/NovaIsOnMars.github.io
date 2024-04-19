@@ -32,6 +32,7 @@ p{
 a{
     color: rgb(195, 195, 195);
     font-family: Comfortaa;
+    text-decoration-line: none;
 }
 .topnav{
     background-color: #333;

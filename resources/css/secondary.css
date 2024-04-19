@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa');
+body{
+    background-color: black;
+}
+h1{
+    color: rgb(238, 238, 238);
+    font-family: verdana;
+    font-size: 125%;
+    text-align: center;
+}
+p{
+    color: rgb(174, 174, 174);
+    font-family: Comfortaa;
+    text-align: center;
+    font-size: 100%
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+a{
+    color: rgb(195, 195, 195);
+    font-family: Comfortaa;
+    text-decoration-line: none;
+}
