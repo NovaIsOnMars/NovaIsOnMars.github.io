@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch');
 body{
     background-image: linear-gradient(90deg, rgb(19, 6, 32) 0%, rgb(30, 9, 52) 80%, rgb(50, 10, 91) 100%);
+    background-color: rgb(13, 5, 22);
 }
 h1{
     color: rgb(238, 238, 238);
@@ -39,6 +40,18 @@ p{
 a{
     color: rgb(195, 195, 195);
     font-family: Comfortaa;
+    text-decoration: none;
+}
+.center{
+    text-align: center;
+}
+.toplink {
+    padding: 10px;
+    padding-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: #1f1b23;
+    border-radius: 15px;
 }
 .nounderline{
     color: rgb(195, 195, 195);

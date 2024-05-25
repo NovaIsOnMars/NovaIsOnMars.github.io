@@ -1,0 +1,124 @@
+body {
+    background: linear-gradient(90deg, rgb(18, 0, 40) 0%, rgb(2, 0, 35) 35%, rgb(35, 0, 78) 100%);
+    background-color: #0b0016;
+}
+h1 {
+    color: #fff;
+    text-align: left;
+    font-family: Verdana;
+    text-shadow: -3px 2px rgb(122, 122, 122);
+}
+h2 {
+    color: #fff;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: -3px 2px rgb(122, 122, 122);
+}
+h3 {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    background: #1f1b23;
+    border-radius: 15px;
+}
+h4 {
+    font-family: monospace, 'Courier New', monospace;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+p {
+    color: #fff;
+    text-align: center;
+    font-family: monospace, 'Courier New', monospace;
+    font-size: 14px;
+}
+a {
+    color: #fff;
+    text-align: center;
+    font-family: monospace, 'Courier New', monospace;
+    font-size: 14px;
+    text-decoration: none;
+}
+img {
+    float: left; /* Remove this, and you get a different cool effect. */
+}
+img.icon {
+    width: 125px;
+    float: left;
+    margin-right: 50px;
+}
+img.icon-small {
+    width: 75px;
+    float: left;
+    margin-right: 50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+li {
+    display: inline-block;
+}
+h1.credits {
+    text-align: center;
+}
+h2.credits {
+    text-align: center;
+}
+p.credits {
+    text-align: left;
+}
+img.language-logo {
+    float: left;
+    border-radius: 25px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    height: 150px;
+}
+img.code-example {
+    float: right;
+    border-radius: 25px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    height: 120px;
+}
+p.language-logo {
+    text-align: right;
+}
+p.code-example {
+    text-align: left;
+}
+.header {
+    padding: 15px;
+    text-align: center;
+    background: #0b0016;
+    box-shadow: -6px 4px rgb(15, 15, 15);
+    border-radius: 15px;
+}
+.background {
+    padding: 15px;
+    text-align: center;
+    background: #0b0016;
+    border-radius: 15px;
+}
+.footerbutton {
+    padding: 15px;
+    text-align: center;
+    background: #1f1b23;
+    border-radius: 15px;
+}
+.languagebutton {
+    border-radius: 25px;
+    margin-bottom: 10px;
+    width: 300px;
+    display: inline-block;
+}
+.lists {
+    float: center;
+}
