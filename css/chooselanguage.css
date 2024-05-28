@@ -43,22 +43,27 @@ a {
 img {
     float: left; /* Remove this, and you get a different cool effect. */
 }
+ul {
+    padding-left: 0;
+}
 img.icon {
-    width: 125px;
+    height: 125px;
     float: left;
     margin-right: 50px;
 }
 img.icon-small {
-    width: 75px;
+    height: 75px;
     float: left;
     margin-right: 50px;
+    border-radius: 15px;
 }
-ul {
+ul.lists {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    float: center;
   }
-li {
+li.lists {
     display: inline-block;
 }
 h1.credits {
@@ -70,15 +75,6 @@ h2.credits {
 p.credits {
     text-align: left;
 }
-img.language-logo {
-    float: left;
-    border-radius: 25px;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-right: 15px;
-    margin-bottom: 10px;
-    height: 150px;
-}
 img.code-example {
     float: right;
     border-radius: 25px;
@@ -86,13 +82,14 @@ img.code-example {
     margin-top: 10px;
     margin-right: 0px;
     margin-bottom: 0px;
-    height: 120px;
-}
-p.language-logo {
-    text-align: right;
+    width: 250px;
 }
 p.code-example {
     text-align: left;
+}
+.classification {
+    text-align: center;
+    float: center;
 }
 .header {
     padding: 15px;
@@ -112,6 +109,7 @@ p.code-example {
     text-align: center;
     background: #1f1b23;
     border-radius: 15px;
+    margin: 0px;
 }
 .languagebutton {
     border-radius: 25px;
@@ -119,6 +117,6 @@ p.code-example {
     width: 300px;
     display: inline-block;
 }
-.lists {
-    float: center;
+.underline {
+    text-decoration: underline;
 }
