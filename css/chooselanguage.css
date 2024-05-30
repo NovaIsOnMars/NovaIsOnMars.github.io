@@ -20,6 +20,7 @@ h3 {
     text-align: center;
     background: #1f1b23;
     border-radius: 15px;
+    font-family: monospace;
 }
 h4 {
     font-family: monospace, 'Courier New', monospace;
